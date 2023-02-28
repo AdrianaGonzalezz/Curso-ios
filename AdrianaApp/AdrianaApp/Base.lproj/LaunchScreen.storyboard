@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="KuQ-SK-evT">
+                                <rect key="frame" x="182" y="542" width="28" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="ayP-6I-lZ3"/>
+                                    <constraint firstAttribute="height" constant="44" id="f15-pG-IKa"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="especias-scoolinary2" translatesAutoresizingMaskIntoConstraints="NO" id="lOy-5t-egn">
+                                <rect key="frame" x="54" y="242" width="284" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="9aJ-T2-Fm4"/>
+                                    <constraint firstAttribute="height" constant="177" id="Lia-Jg-uZs"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cargando..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30Y-a9-h09">
+                                <rect key="frame" x="152" y="493" width="89" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="89" id="WXa-Q8-41U"/>
+                                    <constraint firstAttribute="height" constant="21" id="gqh-io-yKy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KuQ-SK-evT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="0hP-bh-Efa"/>
+                            <constraint firstItem="30Y-a9-h09" firstAttribute="top" secondItem="lOy-5t-egn" secondAttribute="bottom" constant="74" id="7Hx-sE-aU2"/>
+                            <constraint firstItem="30Y-a9-h09" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="EKY-my-l6e"/>
+                            <constraint firstItem="lOy-5t-egn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="183" id="FuD-jX-DKJ"/>
+                            <constraint firstItem="lOy-5t-egn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="fdk-BY-Z5N"/>
+                            <constraint firstItem="KuQ-SK-evT" firstAttribute="top" secondItem="30Y-a9-h09" secondAttribute="bottom" constant="28" id="vX0-An-EYu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="especias-scoolinary2" width="1000" height="667"/>
+    </resources>
+</document>
