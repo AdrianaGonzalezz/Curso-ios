@@ -19,7 +19,16 @@ class TableViewControllerproductos: UITableViewController {
     
     var arregloProductos:[Producto]=[
     Producto(foto: UIImage(named: "Nueces")!, nombre: "Nuez", precio: "$36.00", cantidad: "100g"),
-    Producto(foto: UIImage(named: "Peruano")!, nombre: "Frijol peruano", precio: "$32.00", cantidad: "1kg")
+    Producto(foto: UIImage(named: "Peruano")!, nombre: "Frijol peruano", precio: "$32.00", cantidad: "1kg"),
+    Producto(foto: UIImage(named: "canela")!, nombre: "Canela", precio: "$16.00", cantidad: "1pza"),
+    Producto(foto: UIImage(named: "platanos")!, nombre: "Plátanos Fritos", precio: "$28.00, $36.00, $42.00", cantidad: "1/4 kg, 1/2 kg, 1 kg"),
+    Producto(foto: UIImage(named: "almendras")!, nombre: "Almendra", precio: "$280.00", cantidad: "1 kg"),
+    Producto(foto: UIImage(named: "arandano")!, nombre: "Arandano", precio: "$180.00", cantidad: "1 kg"),
+    Producto(foto: UIImage(named: "pasas")!, nombre: "Pasas", precio: "$100.00", cantidad: "1 kg"),
+    Producto(foto: UIImage(named: "arroz")!, nombre: "Arroz", precio: "$16.00", cantidad: "1 kg"),
+    Producto(foto: UIImage(named: "granola")!, nombre: "Granola", precio: "$240.00", cantidad: "1 kg"),
+    Producto(foto: UIImage(named: "papas")!, nombre: "Papas", precio: "$48.00", cantidad: "1 kg")
+    
     
     ]
 
@@ -59,7 +68,7 @@ class TableViewControllerproductos: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return 350
+    return 200
     }
 
     /*
